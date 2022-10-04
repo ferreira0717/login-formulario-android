@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Semana 7</string>
+    <string name="usu">Usuario</string>
+    <string name="pass">Password</string>
+    <string name="regi_num">Ingrese número de documento</string>
+    <string name="regi_nom">Ingrese nombres</string>
+    <string name="regi_ape">Ingrese apellidos</string>
+    <string name="regi_email">Ingrese email</string>
+    <string name="regi_pass">Ingrese password</string>
+    <string name="regi_inten">Describir la intención de crear esta cuenta</string>
+
+</resources>

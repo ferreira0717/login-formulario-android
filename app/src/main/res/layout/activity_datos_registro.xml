@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".datosRegistro"
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="379dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@color/teal_200"
+        android:textColor="@color/black"
+        android:text="Componentes de texto" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:hint="@string/regi_num"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginBottom="18dp"
+    />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:hint="@string/regi_nom"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:layout_marginBottom="18dp"
+        />
+
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:hint="@string/regi_ape"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:layout_marginBottom="18dp"
+        />
+
+    <EditText
+        android:id="@+id/text4"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:hint="@string/regi_email"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="18dp"
+        />
+
+    <EditText
+        android:id="@+id/text5"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:hint="@string/regi_pass"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:layout_marginBottom="18dp"
+        />
+
+    <EditText
+        android:id="@+id/text6"
+        android:layout_width="379dp"
+        android:layout_height="220dp"
+        android:hint="@string/regi_inten"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="18dp"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_registro"
+        app:cornerRadius="20dp"
+        android:textStyle="bold"
+        android:text="Registrarse"
+        android:onClick="onclick"/>
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_ingresar"
+        app:cornerRadius="20dp"
+        android:textStyle="bold"
+        android:text="Regresar login"
+        android:onClick="onclick"/>
+
+</LinearLayout>
